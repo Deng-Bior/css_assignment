@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .material-symbols-outlined {
+        cursor: pointer;
+        padding: 10px;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+    }
+}
+
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section header ul li{
+    margin-left: 10px;
+    list-style: none;
+}
+
+section header ul li a{
+    color: #111;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+section header ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 3px 10px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section .monicott{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25%;
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+}
+section .monicott .m{
+    color: #1a0bab;
+}
+section .monicott .o{
+    color: red;
+}
+section .monicott .n{
+    color: orange;
+}
+section .monicott .i{
+    color: #4584ef;
+}
+section .monicott .c{
+    color: green;
+}
+section .monicott .O{
+    color: rgb(150, 23, 23);
+}
+section .monicott .t {
+    color: #1a0bab;
+}
+section .monicott .T{
+    color: red;
+}
+section .main .search {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 100%;
+    width: 100%;
+    height: 10px;
+}
+section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main .language{
+    display: flex;
+    margin-top: 30px;
+}
+section .main .language li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 15px;
+}
+section .main .language li a{
+    text-decoration: none;
+    color: #1a0bab;
+}
+section .main .language li a:hover{
+    text-decoration: underline;
+}
+section .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+section .footer .row{
+    padding: 10px 15px;
+    border-top: 30px solid 0,0,0,0.05;
+}
+section .footer .row.row2{
+    display: flex;
+    justify-content: space-between;
+}
+section .footer .row.row2 ul{
+    display: flex;
+}
+section .footer .row.row2 ul li{
+    list-style: none;
+}
+section .footer .row.row2 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #5f6368;
+    margin-right: 25px;
+}
+section .footer .row.row2 ul:nth-child(2) li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #5f6368;
+    margin-right: 0;
+    margin-left: 25px;
+}
