@@ -4,114 +4,98 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
-section{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    .material-symbols-outlined {
-        cursor: pointer;
-        padding: 10px;
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
-    }
+style .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+style .material-symbols-outlined {
+    cursor: pointer;
+    padding: 10px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+style .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+style .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
-section header{
-    position: absolute;
-    top: 0;
-    width: 100%;
+
+header {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
-}
-
-section header ul{
+  }
+  .left {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section header ul li{
-    margin-left: 10px;
-    list-style: none;
-}
-
-section header ul li a{
-    color: #111;
-    font-size: 13px;
-    text-decoration: none;
-}
-
-section header ul li button{
-    background: #4584ef;
-    border: none;
-    outline: none;
-    padding: 3px 10px;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-}
-section .monicott{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 25%;
-    font-size: 35px;
-    cursor: pointer;
-    position: absolute;
-}
-section .monicott .m{
-    color: #1a0bab;
-}
-section .monicott .o{
+    gap: 10px;
+  }
+  section{
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;  
+  }
+  
+  section header{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+      cursor: pointer;
+  }
+  
+section .main .f_d {
+    color: dodgerblue;
+  }
+  .f_e {
     color: red;
-}
-section .monicott .n{
-    color: orange;
-}
-section .monicott .i{
-    color: #4584ef;
-}
-section .monicott .c{
+  }
+  .s_n {
+    color: gold;
+  }
+  .f_g {
+    color: dodgerblue;
+  }
+  .o {
     color: green;
-}
-section .monicott .O{
-    color: rgb(150, 23, 23);
-}
-section .monicott .t {
-    color: #1a0bab;
-}
-section .monicott .T{
-    color: red;
-}
-section .main .search {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid whitesmoke;
-    border-radius: 50px;
-    padding: 10px;
-    flex: 100%;
-    width: 100%;
-    height: 10px;
-}
+  }
 section .main{
     width: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 25PX;
 }
+section .main .search_bar {
+    display: flex;
+    flex: 100%;
+    border: solid 1px rgba(221, 227, 226, 0.799);
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 50px;
+    width: 90%;
+    height: 30px;
+  }
 
 section .main .language{
     display: flex;
@@ -122,12 +106,10 @@ section .main .language li{
     margin: 0 5px;
     font-size: 15px;
 }
-section .main .language li a{
-    text-decoration: none;
-    color: #1a0bab;
-}
+
 section .main .language li a:hover{
     text-decoration: underline;
+    color: #4584ef;
 }
 section .footer{
     position: absolute;
@@ -136,30 +118,121 @@ section .footer{
     width: 100%;
     background: #f2f2f2;
 }
-section .footer .row{
-    padding: 10px 15px;
-    border-top: 30px solid 0,0,0,0.05;
+body {
+    font-family: "Noto Sans Symbols 2";
 }
-section .footer .row.row2{
+  .main {
+    display: grid;
+    place-items: center;
+    font-family: "Noto Sans Symbols 2";
+  }
+  .avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  header {
     display: flex;
+    justify-content: flex-end;
+  }
+  .left {
+    display: flex;
+    gap: 10px;
+  }
+  i {
+    height: 40px;
+    width: 40px;
+  }
+  .apps_btn {
+    background-color: transparent;
+    border: none 1px rgba(221, 227, 226, 0.799);
+    border-radius: 30%;
+  }
+  .apps {
+    background-color: transparent;
+    border: none 1px rgba(221, 227, 226, 0.799);
+  }
+  
+  button:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+  }
+  button {
+    background-color: transparent;
+    border: none 1px rgba(221, 227, 226, 0.799);
+    border-radius: 30px;
+    padding: 5px;
+  }
+  .additional_btns {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    
+  }
+  .Sign_In {
+    background-color: blue;
+    padding: 11px;
+    border-radius: 5px;
+  }
+  .add_bts:hover {
+    border: solid 1px rgba(221, 227, 226, 0.799);
+    background-color: darkslategray;
+  }
+  input {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  input:focus-visible {
+    border: none;
+  }
+  .search_bar {
+    display: flex;
+    flex: 100%;
+    border: solid 1px rgba(221, 227, 226, 0.799);
+    padding: 10px;
     justify-content: space-between;
-}
-section .footer .row.row2 ul{
+    border-radius: 50px;
+    width: 60%;
+    height: 30px;
+  }
+  .more_icons {
     display: flex;
-}
-section .footer .row.row2 ul li{
-    list-style: none;
-}
-section .footer .row.row2 ul li a{
-    text-decoration: none;
+  }
+  footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+  }
+  .uU7dJb {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
     font-size: 15px;
-    color: #5f6368;
-    margin-right: 25px;
-}
-section .footer .row.row2 ul:nth-child(2) li a{
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-items: center;
+    padding: 10px;
+  }
+  .more_links1 {
+    display: flex;
+    gap: 10px;
+  }
+  a {
+    color: #70757a;
     text-decoration: none;
-    font-size: 15px;
-    color: #5f6368;
-    margin-right: 0;
-    margin-left: 25px;
-}
+    font-size: 12px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
